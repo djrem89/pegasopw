@@ -1,2 +1,0 @@
-# pegasopw
-Pegaso Project Work
