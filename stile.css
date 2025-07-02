@@ -1,0 +1,71 @@
+
+  /* ======== STILI GLOBALE ======== */
+     body {
+      background: url('img/sfondo.png') no-repeat center center fixed;  /* Immagine di sfondo fissa su tutta la pagina (no-scroll) */
+      background-size: cover;  /* Scala l'immagine per coprire completamente l'area */
+      color: #3d3d3d; /* Colore testo principale per leggibilità su sfondo chiaro */
+	   
+    }
+	 /* ======== SEZIONI ======== */
+    .hero {
+      background-color: rgba(253, 248, 240, 0.85);  /* Semitrasparenza per effetto layering sull'immagine di sfondo */
+      padding: 4rem 2rem; /* Spaziatura interna verticale/orizzontale */
+      text-align: center; /* Centra testo orizzontalmente */
+    }
+    .hero h1 {
+      font-size: 3rem; /* Dimensione titolo prominente */
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem; /* Dimensione paragrafo leggermente più grande per leggibilità */
+    }
+	  /* ======== NAVBAR ======== */
+    .navbar {
+      background-color: #fff9ed;  /* Sfondo semitrasparente con blur per effetto moderno */
+     background-color: rgba(255, 249, 237, 0.95);
+	  backdrop-filter: blur(5px); /* Applica una leggera sfocatura (5px) agli elementi retrostanti per aumentare il contrasto e il senso di profondità */
+	}
+    .navbar-brand, .nav-link {
+      color: #6a4e32 !important; /* Forza colore testo per link e brand */
+    }
+	.nav-link:hover {
+      color: #98a871 !important; /* Cambio colore al passaggio del mouse */
+	  text-decoration: underline; /* Sottolinea link hover */
+	}
+
+	 /* ======== TITOLI E SEZIONI ======== */
+	
+    h2 {
+      color: #98a871; /* Colore distintivo per sottotitoli */
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px; /* Arrotonda angoli sezione */
+      padding: 2rem; /* Spaziatura interna uniforme */
+      margin-bottom: 2rem; /* Spazio inferiore tra sezioni */
+    }
+	/* ======== BOTTONE "TORNA SU" ======== */
+    #btnTop {
+      position: fixed; /* Posizionato in modo fisso rispetto alla finestra */
+      bottom: 40px;
+      right: 20px;
+      display: none; /* Nasconde di default fino a scroll > 300px */
+      background-color: #6a4e32;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer; /* Elemento cliccabile */
+      z-index: 1000; /* Al di sopra degli altri elementi */
+    }
+	 /* ======== SEPARATORE GRAFICO ======== */
+    .b-example-divider {
+    text-align: center;
+    margin: 2.5rem 0;
+    position: relative;
+  }
+  .b-example-divider::before {
+    content: "🐓 🐣 🐥 🐔";
+    font-size: 1.8rem;
+    color: #98a871;
+  }
